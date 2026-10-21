@@ -24,8 +24,8 @@ import jakarta.validation.Valid;
 @RequestMapping("/tickets")
 public class MovieTicketController {
 
-	@Autowired
-	MovieTicketService mts;
+	@Autowired 
+	MovieTicketService mts; 
 
 	// POST -> Book ticket
 	@PostMapping("/booking")
